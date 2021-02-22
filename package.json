@@ -1,7 +1,7 @@
 {
   "name": "language-8080",
   "version": "0.0.0",
-  "description": "A short description of your language package",
+  "description": "An Atom grammar to support the 8080 assembly language.",
   "keywords": [
     "language",
     "grammar"
