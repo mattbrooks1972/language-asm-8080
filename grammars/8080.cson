@@ -14,7 +14,7 @@
   },
   {
     'comment': 'string'
-    'match': '\'.+\''
+    'match': '\'.+(\'\')*.*\''
     'name': 'string.quoted.single'
   },
   {
