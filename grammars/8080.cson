@@ -34,7 +34,7 @@
   },
   {
     'comment': 'control'
-    'match': '[ \t]+([Aa][Ss][Ee][Gg]|[Cc][Ss][Ee][Gg]|[Dd][Ss][Ee][Gg]|[Ee][Ll][Ss][Ee]|[Ee][Nn][Dd]|[Ee][Nn][Dd][Ii][Ff]|[Ii][Ff]|[Oo][Rr][Gg])[ \t]+'
+    'match': '[ \t]+([Aa][Ss][Ee][Gg]|[Cc][Ss][Ee][Gg]|[Dd][Ss][Ee][Gg]|[Ee][Ll][Ss][Ee]|[Ee][Nn][Dd]|[Ee][Nn][Dd][Ii][Ff]|[Ee][Oo][Tt]|[Ii][Ff]|[Oo][Rr][Gg])[ \t]+'
     'name': 'keyword.control'
   },
   {
