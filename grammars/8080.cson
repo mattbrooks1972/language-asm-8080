@@ -39,7 +39,7 @@
   },
   {
     'comment': 'reserved'
-    'match': '[ \t]+([Mm][Ee][Mm][Oo][Rr][Yy]|[Ss][Tt][Aa][Cc][Kk])[ \t]+'
+    'match': '[ \t]+([Mm][Ee][Mm][Oo][Rr][Yy]|[Ss][Tt][Aa][Cc][Kk]|[\$])[ \t]+'
     'name': 'variable.language'
   },
   {
@@ -54,7 +54,7 @@
   },
   {
     'comment': 'symbol'
-    'match': '[A-Za-z@\?][A-Za-z0-9]{1,5}|$'
+    'match': '[A-Za-z@\?][A-Za-z0-9]{1,5}'
     'name': 'entity.tag'
   }
 ]
