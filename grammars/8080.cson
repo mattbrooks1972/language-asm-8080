@@ -21,5 +21,10 @@
     'comment': 'opcode'
     'match': '[Mm][Oo][Vv]'
     'name': 'entity.name.function'
+  },
+  {
+    'comment': 'string'
+    'match': '\'.+\''
+    'name': 'string.quoted.single'
   }
 ]
