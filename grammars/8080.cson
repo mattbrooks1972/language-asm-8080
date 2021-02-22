@@ -19,7 +19,7 @@
   },
   {
     'comment': 'label'
-    'match': '[A-Za-z@\?][A-Za-z0-9]{0,5}:'
+    'match': '\\b([A-Za-z@\?][A-Za-z0-9]{0,5}\:)\\B'
     'name': 'variable.other'
   },
   {
@@ -59,7 +59,7 @@
   },
   {
     'comment': 'symbol'
-    'match': '[A-Za-z@\?][A-Za-z0-9]{0,5}'
+    'match': '\\b[A-Za-z@\?][A-Za-z0-9]{0,5}\\b'
     'name': 'entity.tag'
   }
 ]
