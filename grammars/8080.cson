@@ -49,7 +49,7 @@
   },
   {
     'comment': 'number'
-    'match': '\\b[0-9]+[A-Fa-f0-9]*[HhOoQqDdBb]{,1}\\b'
+    'match': '\\b[0-9]+[A-Fa-f0-9]*([Hh]|[Dd]{,1}|[OoQq]|[Bb])\\b'
     'name': 'constant.numeric'
   },
   {
