@@ -12,5 +12,9 @@
     'match': ';.*'
     'name': 'comment.line.semicolon'
   },
+  {
+    'comment': 'label'
+    'match': '[a-zA-Z@\?][a-zA-Z0-9]{1,5}:'
+    'name': 'variable.other'
   }
 ]
