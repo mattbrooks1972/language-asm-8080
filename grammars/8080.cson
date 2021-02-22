@@ -8,7 +8,9 @@
 ]
 'patterns': [
   {
-    'match': '^\\s*@@.*$'
-    'name': 'comment'
+    'comment': 'comment'
+    'match': ';.*'
+    'name': 'comment.line.semicolon'
+  },
   }
 ]
