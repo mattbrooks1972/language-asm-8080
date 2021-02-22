@@ -13,6 +13,11 @@
     'name': 'comment.line.semicolon'
   },
   {
+    'comment': 'string'
+    'match': '\'.+\''
+    'name': 'string.quoted.single'
+  },
+  {
     'comment': 'label'
     'match': '[A-Za-z@\?][A-Za-z0-9]{1,5}:'
     'name': 'variable.other'
@@ -21,11 +26,6 @@
     'comment': 'opcode'
     'match': '[Mm][Oo][Vv]'
     'name': 'entity.name.function'
-  },
-  {
-    'comment': 'string'
-    'match': '\'.+\''
-    'name': 'string.quoted.single'
   },
   {
     'comment': 'directive'
