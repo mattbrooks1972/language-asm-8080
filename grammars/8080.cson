@@ -29,7 +29,7 @@
   },
   {
     'comment': 'directive'
-    'match': '[Dd][Bb]'
+    'match': '[ \t]+([Dd][Bb]|[Dd][Ww]|[Dd][Ss]|[Ee][Qq][Uu]|[Ee][Xx][Tt][Rr][Nn]|[Nn][Aa][Mm][Ee]|[Pp][Uu][Bb][Ll][Ii][Cc]|[Ss][Ee][Tt]|[Ss][Tt][Kk][Ll][Nn])[ \t]+'
     'name': 'keyword.other'
   },
   {
