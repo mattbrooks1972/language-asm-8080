@@ -41,5 +41,10 @@
     'comment': 'register'
     'match': '(?<=[, \t])[Aa](?=[, \t\n])'
     'name': 'constant.character'
+  },
+  {
+    'comment': 'symbol'
+    'match': '[A-Za-z@\?][A-Za-z0-9]{1,5}|$'
+    'name': 'entity.tag'
   }
 ]
