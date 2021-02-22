@@ -24,7 +24,7 @@
   },
   {
     'comment': 'opcode'
-    'match': '[Mm][Oo][Vv]'
+    'match': '[ \t]+([Mm][Oo][Vv])[ \t]+'
     'name': 'entity.name.function'
   },
   {
