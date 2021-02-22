@@ -38,6 +38,11 @@
     'name': 'keyword.control'
   },
   {
+    'comment': 'macro'
+    'match': '[ \t]+([Ee][Xx][Ii][Tt][Mm]|[Ee][Nn][Dd][Mm]|[Ii][Rr][Pp]|[Ii][Rr][Pp][Cc]|[Ll][Oo][Cc][Aa][Ll]|[Ll][Oo][Cc][Aa][Tt][Ee]|[Mm][Aa][Cc][Rr][Oo]|[Rr][Ee][Pp][Tt])[ \t]+'
+    'name': 'keyword.operator'
+  },
+  {
     'comment': 'reserved'
     'match': '[ \t]+([Mm][Ee][Mm][Oo][Rr][Yy]|[Ss][Tt][Aa][Cc][Kk]|[\$])[ \t]+'
     'name': 'variable.language'
