@@ -31,5 +31,10 @@
     'comment': 'directive'
     'match': '[Dd][Bb]'
     'name': 'keyword.other'
+  },
+  {
+    'comment': 'number'
+    'match': '(?<=[, \t])[0-9]+[0-9A-Fa-f]*[HhOoQqDdBb]*'
+    'name': 'constant.numeric'
   }
 ]
