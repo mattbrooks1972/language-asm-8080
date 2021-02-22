@@ -16,5 +16,10 @@
     'comment': 'label'
     'match': '[a-zA-Z@\?][a-zA-Z0-9]{1,5}:'
     'name': 'variable.other'
+  },
+  {
+    'comment': 'opcode'
+    'match': '[Mm][Oo][Vv]'
+    'name': 'entity.name.function'
   }
 ]
