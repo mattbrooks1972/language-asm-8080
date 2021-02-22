@@ -33,6 +33,11 @@
     'name': 'keyword.other'
   },
   {
+    'comment': 'control'
+    'match': '[ \t]+([Aa][Ss][Ee][Gg]|[Cc][Ss][Ee][Gg]|[Dd][Ss][Ee][Gg]|[Ee][Ll][Ss][Ee]|[Ee][Nn][Dd]|[Ee][Nn][Dd][Ii][Ff]|[Ii][Ff]|[Oo][Rr][Gg])[ \t]+'
+    'name': 'keyword.control'
+  },
+  {
     'comment': 'number'
     'match': '(?<=[, \t])[0-9]+[A-Fa-f0-9]*[HhOoQqDdBb]*'
     'name': 'constant.numeric'
