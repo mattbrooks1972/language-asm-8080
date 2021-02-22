@@ -26,5 +26,10 @@
     'comment': 'string'
     'match': '\'.+\''
     'name': 'string.quoted.single'
+  },
+  {
+    'comment': 'directive'
+    'match': '[Dd][Bb]'
+    'name': 'keyword.other'
   }
 ]
