@@ -4,7 +4,7 @@
 'scopeName': 'source.8080'
 'name': '8080'
 'fileTypes': [
-  'extension'
+  '8080'
 ]
 'patterns': [
   {
