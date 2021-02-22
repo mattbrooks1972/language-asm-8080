@@ -24,37 +24,37 @@
   },
   {
     'comment': 'opcode'
-    'match': '[ \t]+([Mm][Oo][Vv])[ \t]+'
+    'match': '\\b([Mm][Oo][Vv])\\b'
     'name': 'entity.name.function'
   },
   {
     'comment': 'directive'
-    'match': '[ \t]+([Dd][Bb]|[Dd][Ww]|[Dd][Ss]|[Ee][Qq][Uu]|[Ee][Xx][Tt][Rr][Nn]|[Nn][Aa][Mm][Ee]|[Pp][Uu][Bb][Ll][Ii][Cc]|[Ss][Ee][Tt]|[Ss][Tt][Kk][Ll][Nn])[ \t]+'
+    'match': '\\b([Dd][Bb]|[Dd][Ww]|[Dd][Ss]|[Ee][Qq][Uu]|[Ee][Xx][Tt][Rr][Nn]|[Nn][Aa][Mm][Ee]|[Pp][Uu][Bb][Ll][Ii][Cc]|[Ss][Ee][Tt]|[Ss][Tt][Kk][Ll][Nn])\\b'
     'name': 'keyword.other'
   },
   {
     'comment': 'control'
-    'match': '[ \t]+([Aa][Ss][Ee][Gg]|[Cc][Ss][Ee][Gg]|[Dd][Ss][Ee][Gg]|[Ee][Ll][Ss][Ee]|[Ee][Nn][Dd]|[Ee][Nn][Dd][Ii][Ff]|[Ee][Oo][Tt]|[Ii][Ff]|[Oo][Rr][Gg])[ \t]+'
+    'match': '\\b([Aa][Ss][Ee][Gg]|[Cc][Ss][Ee][Gg]|[Dd][Ss][Ee][Gg]|[Ee][Ll][Ss][Ee]|[Ee][Nn][Dd]|[Ee][Nn][Dd][Ii][Ff]|[Ee][Oo][Tt]|[Ii][Ff]|[Oo][Rr][Gg])\\b'
     'name': 'keyword.control'
   },
   {
     'comment': 'macro'
-    'match': '[ \t]+([Ee][Xx][Ii][Tt][Mm]|[Ee][Nn][Dd][Mm]|[Ii][Rr][Pp]|[Ii][Rr][Pp][Cc]|[Ll][Oo][Cc][Aa][Ll]|[Ll][Oo][Cc][Aa][Tt][Ee]|[Mm][Aa][Cc][Rr][Oo]|[Rr][Ee][Pp][Tt])[ \t]+'
+    'match': '\\b([Ee][Xx][Ii][Tt][Mm]|[Ee][Nn][Dd][Mm]|[Ii][Rr][Pp]|[Ii][Rr][Pp][Cc]|[Ll][Oo][Cc][Aa][Ll]|[Ll][Oo][Cc][Aa][Tt][Ee]|[Mm][Aa][Cc][Rr][Oo]|[Rr][Ee][Pp][Tt])\\b'
     'name': 'keyword.operator'
   },
   {
     'comment': 'reserved'
-    'match': '[ \t]+([Mm][Ee][Mm][Oo][Rr][Yy]|[Ss][Tt][Aa][Cc][Kk]|[\$])[ \t]+'
+    'match': '\\b([Mm][Ee][Mm][Oo][Rr][Yy]|[Ss][Tt][Aa][Cc][Kk]|[\$])\\b'
     'name': 'variable.language'
   },
   {
     'comment': 'number'
-    'match': '(?<=[, \t])[0-9]+[A-Fa-f0-9]*[HhOoQqDdBb]*'
+    'match': '\\b[0-9]+[A-Fa-f0-9]*[HhOoQqDdBb]*\\b'
     'name': 'constant.numeric'
   },
   {
     'comment': 'register'
-    'match': '(?<=[, \t])([Aa]|[Bb]|[Cc]|[Dd]|[Ee]|[Hh]|[Ll]|[Mm]|[Ss][Pp]|[Pp][Ss][Ww])(?=[, \t\n])'
+    'match': '\\b([Aa]|[Bb]|[Cc]|[Dd]|[Ee]|[Hh]|[Ll]|[Mm]|[Ss][Pp]|[Pp][Ss][Ww])\\b'
     'name': 'constant.character'
   },
   {
