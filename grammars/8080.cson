@@ -38,6 +38,11 @@
     'name': 'keyword.control'
   },
   {
+    'comment': 'reserved'
+    'match': '[ \t]+([Mm][Ee][Mm][Oo][Rr][Yy]|[Ss][Tt][Aa][Cc][Kk])[ \t]+'
+    'name': 'variable.language'
+  },
+  {
     'comment': 'number'
     'match': '(?<=[, \t])[0-9]+[A-Fa-f0-9]*[HhOoQqDdBb]*'
     'name': 'constant.numeric'
