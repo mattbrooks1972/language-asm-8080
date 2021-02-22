@@ -39,7 +39,7 @@
   },
   {
     'comment': 'register'
-    'match': '(?<=[, \t])[Aa](?=[, \t\n])'
+    'match': '(?<=[, \t])([Aa]|[Bb]|[Cc]|[Dd]|[Ee]|[Hh]|[Ll]|[Mm]|[Ss][Pp]|[Pp][Ss][Ww])(?=[, \t\n])'
     'name': 'constant.character'
   },
   {
