@@ -1,7 +1,7 @@
 {
   "name": "language-asm-8080",
   "version": "0.0.0",
-  "description": "An Atom grammar to support the 8080 assembly language.",
+  "description": "Atom support for 8080 assembly language.",
   "keywords": [
     "language",
     "grammar",
