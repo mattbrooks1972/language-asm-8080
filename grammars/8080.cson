@@ -44,7 +44,7 @@
   },
   {
     'comment': 'reserved'
-    'match': '\\b([Mm][Ee][Mm][Oo][Rr][Yy]|[Ss][Tt][Aa][Cc][Kk]|[\$])\\b'
+    'match': '\\b([Mm][Ee][Mm][Oo][Rr][Yy]|[Ss][Tt][Aa][Cc][Kk])\\b|\\B([\$])\\B'
     'name': 'variable.language'
   },
   {
