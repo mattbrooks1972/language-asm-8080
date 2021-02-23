@@ -1,12 +1,12 @@
 {
-  "name": "language-8080",
+  "name": "language-asm-8080",
   "version": "0.0.0",
   "description": "An Atom grammar to support the 8080 assembly language.",
   "keywords": [
     "language",
     "grammar"
   ],
-  "repository": "https://github.com/atom/language-8080",
+  "repository": "https://github.com/atom/language-asm-8080",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
