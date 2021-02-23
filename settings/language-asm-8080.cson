@@ -1,3 +1,4 @@
 '.source.asm-8080':
   'editor':
-    'commentStart': '@@ '
+    'commentStart': ';'
+    'commentEnd': '\n'
