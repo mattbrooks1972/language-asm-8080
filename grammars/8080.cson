@@ -24,7 +24,7 @@
   },
   {
     'comment': 'opcode'
-    'match': '\\b([Mm][Oo][Vv])\\b'
+    'match': '\\b([Aa][Cc][Ii]|[Aa][Dd][Cc]|[Aa][Dd][Dd]|[Aa][Dd][Ii]|[Aa][Nn][Aa]|[Aa][Nn][Ii]|[Cc][Aa][Ll][Ll]|[Cc][Cc]|[Cc][Mm]|[Cc][Mm][Aa]|[Cc][Mm][Cc]|[Cc][Mm][Pp]|[Cc][Nn][Cc]|[Cc][Nn][Zz]|[Cc][Pp]|[Cc][Pp][Ee]|[Cc][Pp][Ii]|[Cc][Pp][Oo]|[Cc][Zz]|[Dd][Aa][Aa]|[Dd][Aa][Dd]|[Dd][Cc][Rr]|[Dd][Cc][Xx]|[Dd][Ii]|[Ee][Ii]|[Hh][Ll][Tt]|[Ii][Nn]|[Ii][Nn][Rr]|[Ii][Nn][Xx]|[Jj][Cc]|[Jj][Mm]|[Jj][Mm][Pp]|[Jj][Nn][Cc]|[Jj][Nn][Zz]|[Jj][Pp]|[Jj][Pp][Ee]|[Jj][Pp][Oo]|[Jj][Zz]|[Ll][Dd][Aa]|[Ll][Dd][Aa][Xx]|[Ll][Hh][Ll][Dd]|[Ll][Xx][Ii]|[Mm][Oo][Vv]|[Mm][Vv][Ii]|[Nn][Oo][Pp]|[Oo][Rr][Aa]|[Oo][Rr][Ii]|[Oo][Uu][Tt]|[Pp][Cc][Hh][Ll]|[Pp][Oo][Pp]|[Pp][Uu][Ss][Hh]|[Rr][Aa][Ll]|[Rr][Aa][Rr]|[Rr][Cc]|[Rr][Ee][Tt]|[Rr][Ll][Cc]|[Rr][Mm]|[Rr][Nn][Cc]|[Rr][Nn][Zz]|[Rr][Pp]|[Rr][Pp][Ee]|[Rr][Pp][Oo]|[Rr][Rr][Cc]|[Rr][Ss][Tt]|[Rr][Zz]|[Ss][Bb][Bb]|[Ss][Bb][Ii]|[Ss][Hh][Ll][Dd]|[Ss][Pp][Hh][Ll]|[Ss][Tt][Aa]|[Ss][Tt][Aa][Xx]|[Ss][Tt][Cc]|[Ss][Uu][Bb]|[Ss][Uu][Ii]|[Xx][Cc][Hh][Gg]|[Xx][Rr][Aa]|[Xx][Rr][Ii]|[Xx][Tt][Hh][Ll])\\b'
     'name': 'entity.name.function'
   },
   {
