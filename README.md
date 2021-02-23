@@ -1,3 +1,3 @@
 # 8080 Assembly Language Package #
 
-A short description of your language package.
+An Atom grammar to support the 8080 assembly language.
