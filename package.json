@@ -8,7 +8,7 @@
     "assembly",
     "8080"
   ],
-  "repository": "https://github.com/atom/language-asm-8080",
+  "repository": "https://github.com/mattbrooks1972/language-asm-8080",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
