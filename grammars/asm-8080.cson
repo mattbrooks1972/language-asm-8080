@@ -1,8 +1,8 @@
 'scopeName': 'source.asm-8080'
 'name': '8080 Assembly'
 'fileTypes': [
-  '8080',
-  'S8080',
+  '8080'
+  'S8080'
   'asm8080'
 ]
 'patterns': [
