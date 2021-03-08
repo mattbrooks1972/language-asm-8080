@@ -9,17 +9,17 @@
   {
     'comment': 'comment'
     'match': ';.*'
-    'name': 'comment.line.semicolon.asm-8080'
+    'name': 'comment.line.semicolon'
   },
   {
     'comment': 'string'
     'match': '\'.+(\'\')*.*\''
-    'name': 'string.quoted.single.asm-8080'
+    'name': 'string.quoted.single'
   },
   {
     'comment': 'label'
     'match': '\\b([A-Za-z@\?][A-Za-z0-9]{0,5}\:)\\B'
-    'name': 'variable.other.asm-8080'
+    'name': 'variable.other'
   },
   {
     'comment': 'opcode'
@@ -47,7 +47,7 @@
         |[Xx][Tt][Hh][Ll])
         \\b
     '''
-    'name': 'entity.name.function.asm-8080'
+    'name': 'entity.name.function'
   },
   {
     'comment': 'directive'
@@ -58,7 +58,7 @@
         |[Ss][Tt][Kk][Ll][Nn])
         \\b
     '''
-    'name': 'keyword.other.asm-8080'
+    'name': 'keyword.other'
   },
   {
     'comment': 'control'
@@ -69,7 +69,7 @@
         |[Ee][Oo][Tt]|[Ii][Ff]|[Oo][Rr][Gg])
         \\b
     '''
-    'name': 'keyword.control.asm-8080'
+    'name': 'keyword.control'
   },
   {
     'comment': 'macro'
@@ -80,7 +80,7 @@
         |[Mm][Aa][Cc][Rr][Oo]|[Rr][Ee][Pp][Tt])
         \\b
     '''
-    'name': 'keyword.operator.asm-8080'
+    'name': 'keyword.operator'
   },
   {
     'comment': 'reserved'
@@ -88,21 +88,21 @@
         \\b([Mm][Ee][Mm][Oo][Rr][Yy]|[Ss][Tt][Aa][Cc][Kk])\\b
         |\\B([\$])\\B
     '''
-    'name': 'variable.language.asm-8080'
+    'name': 'variable.language'
   },
   {
     'comment': 'number'
     'match': '\\b[0-9]+[A-Fa-f0-9]*([Hh]|[Dd]{,1}|[OoQq]|[Bb])\\b'
-    'name': 'constant.numeric.asm-8080'
+    'name': 'constant.numeric'
   },
   {
     'comment': 'register'
     'match': '\\b([Aa]|[Bb]|[Cc]|[Dd]|[Ee]|[Hh]|[Ll]|[Mm]|[Ss][Pp]|[Pp][Ss][Ww])\\b'
-    'name': 'constant.character.asm-8080'
+    'name': 'constant.character'
   },
   {
     'comment': 'symbol'
     'match': '\\b[A-Za-z@\?][A-Za-z0-9]{0,5}\\b'
-    'name': 'entity.tag.asm-8080'
+    'name': 'entity.tag'
   }
 ]
