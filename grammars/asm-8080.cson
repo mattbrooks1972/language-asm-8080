@@ -1,4 +1,4 @@
-'scopeName': 'source.asm-8080'
+'scopeName': 'source.asm.8080'
 'name': '8080 Assembly'
 'fileTypes': [
   '8080'
